@@ -1,0 +1,70 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/pattern.png");
+}
+body{
+   width:100%;
+   max-width:1200px;
+   margin:0 auto;
+   background-color: white;
+   position:relative;
+}
+header{
+    height: 150px;
+    
+}
+header img{
+    width:100px;
+    position:absolute;
+    right:32.5px;
+    top:32.5px;
+
+}
+h1{
+    font-size: 50px;
+    line-height:140px;
+    margin:0,0,0,32.5px;
+}
+main{
+    background:#ccc;
+}
+article
+{
+padding:20px;
+}
+h3{
+margin-top:0;
+}
+iframe{
+    margin:0 20px 20px 0;
+    float:left;
+    max-width: 100%;
+}
+p{
+    line-height:2;
+}
+h3{
+    margin:20px;
+}
+.Image_div{
+    width:100%;
+    background-color: red;
+    box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+}
+.Image_div a{
+    width:25%;
+    display:block;
+    float:left;
+}
+.Image_div img{
+   max-width: 100%;
+}
+.clearfix
+{
+    clear:both;
+}
+.panda img{
+    display: block;
+        max-width: 100%;
+}
