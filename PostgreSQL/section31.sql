@@ -1,0 +1,12 @@
+CREATE DATABASE northwind2;
+
+--create database called mydb5 with SQL
+
+CREATE DATABASE mydb5;
+
+--DROP DATABASE
+DROP DATABASE IF EXISTS northwind2;
+
+--DROP DATABASE MYDB5
+
+DROP DATABASE IF EXISTS mydb5;
